@@ -1,0 +1,1 @@
+Most of the exercises come from a previous course at Hamburg Coding School given by [marymar](https://github.com/marymar) 
