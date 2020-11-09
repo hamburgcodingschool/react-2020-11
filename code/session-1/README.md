@@ -2,6 +2,8 @@
 ## Goal
 Setup our first React App with Create React App.
 
+`npx create-react-app hello-react`
+
 ## Links
 
 * [React.js Homepage](https://reactjs.org/)
