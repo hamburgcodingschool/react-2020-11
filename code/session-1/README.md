@@ -10,6 +10,9 @@ Replace the `<header>` Element with an `h1` Heading which contains the text `"He
 ### Task 2
 Add a `<Section />` component to the `App` component. Create a new file for that component called `Section.js` beside `App.js` and in there write code to render a section (a section renders a `div` element with some text inside).
 
+### Task 3
+Use a prop named `text` to pass the content of the section into the `Section` component.
+
 ## Links
 
 * [React.js Homepage](https://reactjs.org/)
