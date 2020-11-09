@@ -4,6 +4,9 @@ Setup our first React App with Create React App.
 
 `npx create-react-app hello-react`
 
+### Task 1
+Replace the `<header>` Element with an `h1` Heading which contains the text `"Hello from Hamburg Coding School"`
+
 ## Links
 
 * [React.js Homepage](https://reactjs.org/)
