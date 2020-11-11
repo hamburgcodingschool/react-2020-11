@@ -1,0 +1,22 @@
+.button {
+  padding: 1em;
+  margin: 1em;
+  border: 1px solid;
+  font-weight: 700;
+  border-radius: 0.75em;
+  box-shadow: 2px 2px 6px #888;
+  cursor: pointer;
+}
+.button[disabled] {
+  box-shadow: none;
+  cursor: default;
+}
+
+.confirm {}
+.confirm[disabled] {}
+
+.abort {}
+.abort[disabled] {}
+
+.cancel {}
+.cancel[disabled] {}
