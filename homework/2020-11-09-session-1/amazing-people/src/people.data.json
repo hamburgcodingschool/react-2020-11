@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Wolfgang Amadeus Mozart",
+    "role": "Komponist",
+    "profile": "Wunderkind, außergewöhnliches Genie und eigenwilliger Rebell — um Wolfgang Amadeus Mozarts Person ranken sich zahlreiche Geschichten und Anekdoten.",
+    "image": "https://images.universal-music.de/img/assets/417/417454/992/720/wolfgang-amadeus-mozart.jpg"
+  },
+  {
+    "name": "Johann Sebastian Bach",
+    "role": "Komponist",
+    "profile": "Johann Sebastian Bach war ein deutscher Komponist, Kantor sowie Orgel- und Cembalovirtuose des Barocks. In seiner Hauptschaffensperiode war er Thomaskantor zu Leipzig.",
+    "image": "https://www.shn.ch/sites/default/files/styles/np8_full/public/media/2018/05/09/johann_sebastian_bach.jpg?h=5a70051f&itok=LeWtypnL"
+  },
+  {
+    "name": "Ludwig van Beethoven",
+    "role": "Komponist",
+    "profile": "Ludwig van Beethoven war ein deutscher Komponist und Pianist. Er führte die Wiener Klassik zu ihrer höchsten Entwicklung und bereitete der Musik der Romantik den Weg.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Beethoven.jpg/440px-Beethoven.jpg"
+  },
+  {
+    "name": "Richard Wagner",
+    "role": "Komponist",
+    "profile": "Wilhelm Richard Wagner war ein deutscher Komponist, Dramatiker, Dichter, Schriftsteller, Theaterregisseur und Dirigent.",
+    "image": "https://static.geo.de/bilder/b5/fa/82631/mobile_feed_original480/richard-wagner-f-183301637-zlatko-guzmic.jpg"
+  }
+]

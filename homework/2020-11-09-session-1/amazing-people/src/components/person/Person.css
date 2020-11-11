@@ -1,0 +1,28 @@
+.person {
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  padding: 1.5em;
+  border: 1px solid;
+  display: inline-block;
+}
+
+.person-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.person-header {
+  margin-left: 1.5em;
+}
+
+.person-name {
+  margin: 0;
+  padding: 0;
+}
+
+.person-role {
+  background-color: #deecff;
+  line-height: 1;
+  padding: 0.5em;
+  margin: 0.5em 0;
+}
