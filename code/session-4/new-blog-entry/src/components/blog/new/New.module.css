@@ -1,0 +1,43 @@
+.new {
+  margin: 2em 0;
+}
+
+.headline {
+  margin: 0;
+}
+
+.label {
+  display: block;
+  font-weight: 700;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.labelInline {
+  font-weight: 700;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.input {
+  padding: 1em;
+  width: 100%;
+}
+
+.textarea {
+  width: 100%;
+  height: 10em;
+  display: inline-block;
+  padding: 1em;
+}
+
+.button {
+  margin-top: 2em;
+  padding: 1em;
+  cursor: pointer;
+}
+
+.checkbox {
+  margin: 2em 0.5em 0 0;
+  font-size: 2em;
+}

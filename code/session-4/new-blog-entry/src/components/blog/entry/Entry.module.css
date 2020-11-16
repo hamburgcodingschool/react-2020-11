@@ -1,0 +1,13 @@
+.date {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.copy {
+  line-height: 1.5;
+}
