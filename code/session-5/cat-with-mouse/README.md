@@ -1,7 +1,13 @@
 # Move the Cat
 
-Move the cat by 10 pixels left or right, depending on the two buttons
-click on bottom a state 'position' is used move the cat to the right position.
+* Add a mouse component and make it visible on the screen.  
+* Add two more buttons to move around the mouse.  
+* You should be able to move the mouse, and the cat one after another.  
+
+Extra Tasks:
+* Show the mouse, and the cat at the same vertical position. (so they can be moved on top of each other)
+* Make the mouse disappear whenever it collides with the cat.
+* Let the mouse appear again at a random position after some time.
 
 ---
 
