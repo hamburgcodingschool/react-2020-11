@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+button {
+  background: none;
+  font-size: 2em;
+  border: 1px solid #dedede;
+  margin: 1em;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+.buttonWrapper {
+  position: absolute;
+  bottom: 3em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  margin-top: 3em;
+}

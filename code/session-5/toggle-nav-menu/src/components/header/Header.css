@@ -1,0 +1,6 @@
+header {
+  padding: 1em;
+  border-bottom: 1px solid #999;
+  box-shadow: 2px 2px 4px #ddd;
+  z-index: 10;
+}

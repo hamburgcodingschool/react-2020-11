@@ -1,0 +1,45 @@
+
+.open {
+  position: absolute;
+  right: 2em;
+  top: 2.5em;
+  cursor: pointer;
+}
+
+.open > span {
+  display: block;
+  width: 1.5em;
+  height: 0;
+  margin: 4px 0;
+  border-top: 2px solid #000;
+}
+
+.menu {
+  position: absolute;
+  width: auto;
+  right: 0;
+  display: flex;
+  flex-direction: row-reverse;
+  z-index: 0;
+}
+
+.menu > ul {
+  list-style: none;
+  text-align: right;
+  color: #fff;
+  flex: 0;
+  padding: 0em;
+  overflow: hidden;
+  margin: 0;
+  background: #214f88;
+  transition: flex 0.4s ease-in-out;
+}
+
+.menu.opened > ul {
+  flex: 1;
+}
+
+.menu li {
+  margin: 2em;
+  cursor: pointer;
+}
