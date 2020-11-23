@@ -1,5 +1,6 @@
 const jwt = require('jsonwebtoken');
 const express = require('express');
+const cors = require('cors');
 const app = express();
 const bodyParser = require('body-parser');
 
@@ -20,6 +21,7 @@ async function validateAuth(req, res, next) {
 	res.status(403).json({ error: 'you must be logged in to access this resource'});
 }
 
+app.use(cors());
 app.use(bodyParser.json());
 app.get('/', (req, res) => {
   res.json({message: 'Hello World'})
