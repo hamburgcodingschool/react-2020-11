@@ -1,10 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Navigation.css'
 
 const Navigation = ({ entries }) => {
-  let isOpen = false
+  const [isOpen, setIsOpen] = useState(false)
   const toggleMenu = () => {
-    isOpen = !isOpen
+    setIsOpen(!isOpen)
   }
 
   return (

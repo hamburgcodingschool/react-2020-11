@@ -1,6 +1,6 @@
 # Move the Cat
 
-Move the cat by 10 pixels left or right, depending on the the tow buttons
+Move the cat by 10 pixels left or right, depending on the two buttons
 click on bottom a state 'position' is used move the cat to the right position.
 
 ---

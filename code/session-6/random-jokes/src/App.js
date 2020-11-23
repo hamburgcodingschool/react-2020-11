@@ -6,6 +6,10 @@ function App() {
   const [joke, setJoke] = useState(null);
   const [error, setError] = useState(null);
 
+  // example for request + proxy in package.json:
+  // "proxy": "https://date.nager.at/api",
+  axios.get('/v2/publicholidays/2017/AT')
+
   const loadAJoke = () => {
     setError(null);
     setJoke(null);

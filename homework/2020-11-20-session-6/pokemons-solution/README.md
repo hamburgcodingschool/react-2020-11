@@ -1,23 +1,25 @@
-# Move the Cat
+# Pokemons
 
-* Add a mouse component and make it visible on the screen.  
-* Add two more buttons to move around the mouse.  
-* You should be able to move the mouse, and the cat one after another.  
+1. Fetch up to 1000 Pokemons from https://pokeapi.co/.
+1. List them all. Use `<List />` therefore. It takes the pokemons list as property `pokemons`.
+1. While data is loading, a loading info should be shown to the user.
+1. Store the data to local storage and read it from local storage to initialize the `pokemons` state (if available).
+If no data is stored in the local storage, initialize it with an empty array.
 
-Extra Tasks:
-* Show the mouse, and the cat at the same vertical position. (so they can be moved on top of each other)
-* Make the mouse disappear whenever it collides with the cat.
-* Let the mouse appear again at a random position after some time.
-
+*--- Advanced, if you like ---*
+1. Add Routing for `<Details />`. As Router param the pokemon `name` is passed.
+1. Link all Pokemons in the `<List />`, to show more details `<Link to="/details/[name-of-the-pokemon]">...`
+1. Use the Router Param 'name' passed to the `<Details />`, to read the stored data of the Pokemon out of the Pokemons Array in local storage.
+1. Show the name, weight and height of the pokemon in the `<Details />`
 ---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
-In the project directory, you can run:0
+In the project directory, you can run:
 
-### `yarn start`
+### `npm start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -25,12 +27,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `yarn test`
+### `npm test`
 
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+### `npm run build`
 
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -40,7 +42,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
@@ -76,6 +78,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ad
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-### `yarn build` fails to minify
+### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

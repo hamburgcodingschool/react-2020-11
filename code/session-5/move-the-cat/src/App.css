@@ -22,3 +22,19 @@ button {
 img {
   margin-top: 3em;
 }
+
+.cat {
+    transition: left 300ms linear;
+}
+.cat.spin {
+    animation: Cat-spin 1s ease-in-out;
+}
+
+@keyframes Cat-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
