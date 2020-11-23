@@ -27,6 +27,8 @@ axios.post('/user', {
   });
 ``` 
 1. If the login request was correct (it is for username `admin` and password `demo`), a `token` is returned in the response.data object. Return this token to the App component via the callback function `onLogin`.
+1. Store the token in the state of the App component using `useState`.
+1. 
 
 
 # Getting Started with Create React App
