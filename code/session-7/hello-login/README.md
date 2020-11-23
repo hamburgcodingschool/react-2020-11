@@ -26,7 +26,7 @@ axios.post('/user', {
     console.log(error);
   });
 ``` 
-1. If the login request was correct (it is for username `admin` and password `demo`), a `token` is returned in the response.data object. Return
+1. If the login request was correct (it is for username `admin` and password `demo`), a `token` is returned in the response.data object. Return this token to the App component via the callback function `onLogin`.
 
 
 # Getting Started with Create React App
