@@ -10,6 +10,23 @@
 1. The onLogin prop takes a function which is called by the Login component with a token if the login was successful.
 1. Create a function called `handleLogin` in the App component and pass it to the Login component via the `onLogin` prop we created. The handleLogin function takes a token as an argument when it is called by the Login component.
 1. Print the token that is returned.
+## Task 2
+1. Whenever the login button is clicked, take the input data for username and password and send it to the `/login` endpoint of our api at https://demo-api-react-2020.herokuapp.com/login.  
+  The api expects a body which contains username and password as a json object. The HTTP method has to be `POST`. You can use fetch or axios.  
+  Example for doing a POST request with axios:
+```ecmascript 6
+axios.post('/user', {
+    firstName: 'Fred',
+    lastName: 'Flintstone'
+  })
+  .then(function (response) {
+    console.log(response);
+  })
+  .catch(function (error) {
+    console.log(error);
+  });
+``` 
+
 
 # Getting Started with Create React App
 
