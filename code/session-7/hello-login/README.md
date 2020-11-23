@@ -5,9 +5,11 @@
     1. password
     and a button to login.
 1. render the Login component in the App component.
-1. Use useState to control the inputs of the Login component.
+1. Use useState to control the inputs of the Login component. (This means storing the values of the inputs in a state and changing them by passing a function to the onChange prop of the inputs.)
 1. Add a prop called `onLogin` to the Login component.
-1. ...
+1. The onLogin prop takes a function which is called by the Login component with a token if the login was successful.
+1. Create a function called `handleLogin` in the App component and pass it to the Login component via the `onLogin` prop we created. The handleLogin function takes a token as an argument when it is called by the Login component.
+1. Print the token that is returned.
 
 # Getting Started with Create React App
 
