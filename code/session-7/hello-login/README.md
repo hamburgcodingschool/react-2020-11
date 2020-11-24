@@ -28,7 +28,20 @@ axios.post('/user', {
 ``` 
 1. If the login request was correct (it is for username `admin` and password `demo`), a `token` is returned in the response.data object. Return this token to the App component via the callback function `onLogin`.
 1. Store the token in the state of the App component using `useState`.
-1. 
+## Task 3
+1. Create a new component called UserProfile
+1. UserProfile takes the token as a prop.
+1. If the token is not empty, UserProfile makes a GET request to `/user/me`. To be allowed to access that endpoint, you must set an HTTP Authorization header with the value `Bearer <token>` with `<token>` being the Jsonwebtoken you got from Login and which should already be saved in the state of App. See below for an example for the axios request.  
+```ecmascript 6
+axios.get('/your-endpoint', {
+    headers: {'X-YourHeader': 'Your header value'},
+  })
+```
+1. Render the username that is returned by the GET request in the UserProfile component.
+## Task 4 (Optional)
+1. Add a logout button which clears the token and make sure that the UserProfile does not show the Username anymore when the user is logged out.
+## Task 5 (Optional)
+1. Use the React Context API to pass the token to the UserProfile component. You can have a look at `session-6/hello-react-context` for an example. 
 
 
 # Getting Started with Create React App

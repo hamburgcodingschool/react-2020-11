@@ -1,8 +1,9 @@
-import { useState } from 'react';
+import {useState} from 'react';
+import axios from 'axios';
 
-const Login = ({ onLogin }) => {
-  const [ username, setUsername ] = useState('');
-  const [ password, setPassword ] = useState('');
+const Login = ({onLogin}) => {
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
 
   const changeUsername = (event) => {
     const value = event.currentTarget.value
@@ -17,11 +18,13 @@ const Login = ({ onLogin }) => {
   const handleLogin = (event) => {
     event.preventDefault();
 
-    // TODO: do login
-
-    const token = 'todo login and get token'
-
-    onLogin(token);
+    axios.post(
+      'https://demo-api-react-2020.herokuapp.com/login',
+      {username, password}
+    ).then(response => {
+      const {token} = response.data;
+      onLogin(token);
+    })
   }
 
   return (
